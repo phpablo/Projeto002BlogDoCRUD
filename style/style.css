@@ -1,0 +1,51 @@
+/* RESET CSS */
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+
+/* BLOCK  */
+body {
+    background-color: #1e88e5;
+}
+
+/* BLOCK */
+.corpo {
+    background-color: whitesmoke;
+    width: 1000px;
+    margin: 0 auto;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+}
+.article {
+    margin-bottom: 20px;
+}
+/* ELEMENTO  */
+.corpo__nav {
+    border-bottom: 2px solid #ccc;
+}
+.corpo__link {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.corpo__link:hover {
+    text-decoration: underline;
+    font-size: 20.5px;
+    background-color: #333;
+    color: aliceblue;
+    cursor: pointere;
+}
+/* MODIFY */
+.corpo--conteudo {
+    padding: 20px 25px;
+}
+.title--default {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #757575;
+}
