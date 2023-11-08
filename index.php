@@ -1,9 +1,20 @@
 <?php
 require_once 'app/core/core.php';
+require_once 'app/controller/HomeController.php';
+require_once 'app/controller/ErrorController.php';
+
 
 
 $template = file_get_contents('app/template/estrutura.html');
-echo $template;
 
+
+ob_start();
 $core = new Core();
 $core->start($_GET);
+
+$saida = ob_get_contents();
+ob_end_clean();
+
+$tplPronto = str_replace('{{area}}', $saida, $template);
+
+echo $tplPronto;
