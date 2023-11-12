@@ -5,7 +5,7 @@ require_once 'app/controller/ErrorController.php';
 require_once 'app/model/Postagem.php';
 
 
-
+// puxa a estrutura e joga numa var 
 $template = file_get_contents('app/template/estrutura.html');
 
 
