@@ -3,6 +3,7 @@ require_once 'app/core/core.php';
 require_once 'app/controller/HomeController.php';
 require_once 'app/controller/ErrorController.php';
 require_once 'app/model/Postagem.php';
+require_once 'app/lib/database/Connection.php';
 
 
 // puxa a estrutura e joga numa var 
